@@ -1,6 +1,9 @@
 {
-  "name": "angular-social",
-  "version": "1.0.0",
+  "name": "ishapkin-angusocial",
+  "version": "1.0.1",
+  "authors": [
+    "Shapkin Ilya <info@shapkin.org> (http://shapkin.org)"
+  ],
   "main": [
   	"angular-social.js",
   	"angular-social.css"
