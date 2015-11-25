@@ -175,7 +175,7 @@ app.directive('ngSocialTwitter', ['$parse', function ($parse) {
 
   var options = {
     counter: {
-      url: '//urls.api.twitter.com/1/urls/count.json?url={url}&callback=JSON_CALLBACK',
+      url: '//cdn.api.twitter.com/1/urls/count.json?url={url}&callback=JSON_CALLBACK',
       getNumber: function (data) {
         return data.count;
       }
